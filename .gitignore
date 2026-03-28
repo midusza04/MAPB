@@ -1,0 +1,24 @@
+# Dataset (duży, nie wrzucamy do repo)
+cotton-candy/
+
+# (stara nazwa - na wypadek gdyby pojawiła się lokalnie)
+cotton_candy/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testy / narzędzia
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# VS Code
+.vscode/
+
