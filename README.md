@@ -54,6 +54,21 @@ Notebooki w projekcie:
 
 W VS Code wybierz kernel Pythona ze środowiska `.venv` i uruchom komórki.
 
+## Milestone 1 (zrozumienie danych)
+
+Notebook `milestone1_cotton_candy.ipynb` koncentruje się na rozpoznaniu struktury logu i jakości danych:
+
+- wczytanie i spłaszczenie event logu XES/YAML,
+- identyfikacja kluczowych atrybutów (`case_id`, `activity`, `timestamp`, `resource`),
+- analiza braków danych i duplikatów,
+- podstawowe statystyki procesu (liczba eventów/cases/aktywności),
+- EDA: rozkłady, częstości aktywności, timeline,
+- interpretacja wyników jakości danych i charakterystyki procesu.
+
+### Wynik Milestone 1
+
+Efektem jest uporządkowany i zrozumiały obraz danych procesowych, który stanowi bazę pod analizy zaawansowane z Milestone 2 (klasteryzacja, redukcja wymiarowości, wykrywanie anomalii).
+
 ## Milestone 2 (analiza zaawansowana)
 
 Notebook `milestone2_cotton_candy.ipynb` rozszerza analizę o:
