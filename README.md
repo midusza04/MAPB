@@ -45,10 +45,36 @@ W projekcie używam `uv` do tworzenia środowiska i instalacji zależności.
 3. Instalacja pakietów:
 	 - `uv pip install -r requirements.txt`
 
-## Uruchomienie notebooka
+## Uruchomienie notebooków
 
-Notebook dla Milestone 1:
+Notebooki w projekcie:
 
 - `milestone1_cotton_candy.ipynb`
+- `milestone2_cotton_candy.ipynb`
 
 W VS Code wybierz kernel Pythona ze środowiska `.venv` i uruchom komórki.
+
+## Milestone 2 (analiza zaawansowana)
+
+Notebook `milestone2_cotton_candy.ipynb` rozszerza analizę o:
+
+- inżynierię cech na poziomie przypadków,
+- wykrywanie outlierów (IQR, Isolation Forest),
+- redukcję wymiarowości (PCA, t-SNE, UMAP),
+- klasteryzację (K-Means, DBSCAN),
+- analizę relacji między zdarzeniami (Directly-Follows),
+- analizę wzorców czasowych i wariantów procesu,
+- wykrywanie anomalii (LOF + konsensus metod).
+
+### Dodatkowe pakiety dla Milestone 2
+
+Poza pakietami z `requirements.txt` notebook Milestone 2 wymaga:
+
+- `scikit-learn`
+- `umap-learn`
+
+Instalacja (przykład):
+
+- `uv pip install scikit-learn umap-learn`
+
+Jeśli używasz Condy, możesz zainstalować te biblioteki ręcznie w aktywnym środowisku.
