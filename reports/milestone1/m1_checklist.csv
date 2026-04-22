@@ -1,0 +1,8 @@
+wymaganie,status,pokrycie_w_notebooku
+Opis zbioru danych i kontekstu,OK,Sekcja 1 (komórka 1) + Sekcja 7 (komórka 15)
+Identyfikacja kluczowych atrybutów (case/activity/timestamp/resource),OK,Sekcja 3 (komórki 6-7) + Sekcja 7 (komórka 15)
+"Analiza jakości danych (braki, duplikaty, timestampy, typy)",OK,Sekcja 4 (komórka 9) + Sekcja 8 (komórka 20)
+Eksploracyjna analiza danych,OK,Sekcja 6 (komórka 13) + Sekcja 7.3 (komórka 18) + Sekcja 8 (komórka 20)
+"Podstawowe statystyki (eventy, cases, activities, sensory)",OK,Sekcja 5 (komórka 11) + Sekcja 8 (komórka 20)
+"Podstawowe wizualizacje (timeline, distribution, frequency)",OK,Sekcja 6 (komórka 13) + Sekcja 8 (komórka 20)
+Modele BPMN (jeśli są) + interpretacja,Częściowo (brak BPMN w danych),Sekcja 9 (komórki 21-22): automatyczne wyszukanie i analiza XML
