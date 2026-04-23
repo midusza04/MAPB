@@ -1,85 +1,74 @@
-# Milestone 1 – pełna analiza procesu (cotton-candy)
+# Milestone 1 – raport z naciskiem na dane sensorowe (Cotton Candy)
 
-Analiza wykonana na **całym zapisanym procesie** (`batch-*/*.xes.yaml`).
+Raport został zaktualizowany na podstawie wynikow sekcji sensorowej notebooka i plikow CSV w katalogu reports/milestone1.
 
-## 1. Opis zbioru danych i kontekstu
+## 1. Zakres aktualizacji
 
-- System: Cottonbot / CPEE
-- Typ zdarzeń: event log XES zapisany jako YAML
-- Liczba przypadków: **1,244**
-- Liczba zdarzeń: **564,185**
+Zakres obejmuje dane pomiarowe z plikow batch-*/*-process.yaml:
+- jakosc danych per sensor,
+- czestotliwosc wystapien sensorow,
+- statystyki numeryczne wartosci sensorow,
+- podsumowanie Milestone 1 pod katem warstwy sensorowej.
 
-## 2. Kluczowe atrybuty logu zdarzeń
+## 2. Podsumowanie sensorow
 
-- case id: `concept:instance` i `cpee:instance`
-- activity: `concept:name` (fallback: `id:id`, `cpee:activity`)
-- timestamp: `time:timestamp`
-- resource: brak stabilnego `org:resource`; zastosowano proxy na bazie endpointu
-  - braki resource/proxy: **120,877/564,185**
+Na podstawie pliku m1_summary.csv:
+- liczba punktow sensorowych: 38,207
+- liczba typow sensorow: 11
 
-## 3. Analiza jakości danych
+Najczesciej wystepujace sensory (m1_sensor_frequency.csv):
+- humidity: 9,434
+- temperature: 9,434
+- head: 4,717
+- ambient: 4,717
+- current: 4,700
+- power: 4,700
 
-### Brakujące wartości
-- `case_id`: **0**
-- `case_uuid`: **0**
-- `activity`: **0**
-- `timestamp_raw`: **80,471**
-- `timestamp` (po parsowaniu): **80,471**
+Wniosek: trzon danych tworza sensory srodowiskowe i energetyczne (humidity, temperature, ambient, head, current, power).
 
-### Duplikaty
-- Duplikaty (po kluczowych polach): **99,743**
+## 3. Jakosc danych sensorowych
 
-### Niespójności timestampów
-- Nieudane parsowanie timestampów: **0**
-- Ujemne różnice czasu wewnątrz case: **64,840**
+Na podstawie m1_sensor_quality_per_sensor.csv:
+- brakujace znaczniki czasu: 0 dla wszystkich sensorow (0.00%)
+- duplikaty: wystepuja tylko dla current i power (po 11 rekordow, 0.23%)
+- nienumeryczne wartosci:
+  - pressures: 100.00%
+  - brakujace sensor_id (pusty identyfikator): 100.00%
+  - pos1: 58.52%
+  - pos2: 52.44%
+  - pos3: 52.44%
 
-### Niespójności typów danych
-- `case_id`: str: 564185
-- `case_uuid`: str: 564185
-- `activity`: str: 564185
-- `timestamp_raw`: str: 483714, NoneType: 80471
-- format timestampów: other_string: 483714, missing: 80471
+Wniosek: jakosc timestampow jest bardzo dobra, a glownym obszarem ryzyka sa wartosci nienumeryczne dla czesci sensorow pozycyjnych i pomocniczych.
 
-## 4. Eksploracyjna analiza danych
+## 4. Statystyki wartosci numerycznych sensorow
 
-- Rozkład zdarzeń na przypadek jest skośny z długim ogonem.
-- Częstotliwości aktywności są nierównomierne (dominacja kilku kroków procesu).
-- Timeline pokazuje okresy wysokiej i niskiej intensywności zdarzeń.
+Na podstawie m1_sensor_numeric_stats.csv:
+- temperature: srednia 31.47, mediana 24.82, max 46.81
+- humidity: srednia 48.75, mediana 60.13, max 65.56
+- ambient: srednia 30.62, mediana 31.11, max 34.39
+- head: srednia 67.49, mediana 71.03, max 90.93
+- current: srednia 2.75, mediana 4.36, max 4.51
+- power: srednia 595.26, mediana 950.00, max 1002.00
 
-## 5. Podstawowe statystyki
+Wniosek: sensory head/current/power wykazuja duza zmiennosc, co jest spójne z fazami pracy urzadzenia.
 
-- liczba eventów: **564,185**
-- liczba cases: **1,244**
-- liczba activities: **64**
+## 5. Wizualizacje i artefakty
 
-### Zdarzenia na case
-- min: **15**
-- mediana: **42**
-- średnia: **453.52**
-- max: **31421**
+W notebooku dodano osobna heatmape jakosci per sensor (metryki %):
+- missing_timestamp_pct
+- non_numeric_value_pct
+- duplicates_pct
 
-### Czas trwania case [s]
-- min: **3.73**
-- mediana: **32.38**
-- średnia: **385.36**
-- max: **205121.41**
+Wygenerowane tabele CSV:
+- m1_summary.csv
+- m1_sensor_quality_per_sensor.csv
+- m1_sensor_frequency.csv
+- m1_sensor_numeric_stats.csv
+- m1_event_missing_table.csv
+- m1_checklist.csv
 
-### Top 10 aktywności
-- Get the Environment Data: **196,334**
-- Get the Plug Data: **195,487**
-- external: **65,868**
-- Wait 2 seconds: **21,135**
-- Sleep 1 Second: **17,986**
-- Move down: **10,248**
-- weigh_touch: **10,244**
-- Run until CC Head is optimally cooled: **7,988**
-- Move down until touch: **4,359**
-- Measure the size of the Cotton Candy: **2,166**
+## 6. Wnioski dla Milestone 1
 
-## 6. Podstawowe wizualizacje
-
-Wygenerowane pliki:
-- `figures/timeline_events_per_hour.png`
-- `figures/distribution_events_per_case.png`
-- `figures/distribution_case_duration_sec.png`
-- `figures/frequency_top_activities.png`
+1. Warstwa sensorowa jest dobrze pokryta i dostarcza duzej liczby pomiarow.
+2. Najwazniejsze problemy jakosciowe dotycza nie timestampow, lecz nienumerycznych wartosci dla wybranych sensorow.
+3. Dane z sensorow humidity/temperature/head/ambient/current/power stanowia stabilna baze do kolejnych etapow (Milestone 2: modelowanie i analizy zaleznosci).
