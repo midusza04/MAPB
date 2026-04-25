@@ -1,0 +1,13 @@
+sensor_id,records,missing_timestamp,non_numeric_value,missing_timestamp_pct,non_numeric_value_pct,duplicates,duplicates_pct
+humidity,9434,0,0,0.0,0.0,0,0.0
+temperature,9434,0,0,0.0,0.0,0,0.0
+head,4717,0,0,0.0,0.0,0,0.0
+ambient,4717,0,0,0.0,0.0,0,0.0
+current,4700,0,0,0.0,0.0,11,0.23
+power,4700,0,0,0.0,0.0,11,0.23
+pos1,135,0,79,0.0,58.52,0,0.0
+pos2,82,0,43,0.0,52.44,0,0.0
+pos3,82,0,43,0.0,52.44,0,0.0
+pressures,78,0,78,0.0,100.0,0,0.0
+weight,68,0,0,0.0,0.0,0,0.0
+,60,0,60,0.0,100.0,0,0.0
