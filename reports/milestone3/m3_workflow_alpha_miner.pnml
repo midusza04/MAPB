@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="alpha_classic_net_1780578544.813727" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>alpha_classic_net_1780578544.813727</text>
+    </name>
+    <page id="n0">
+      <place id="start">
+        <name>
+          <text>start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="end">
+        <name>
+          <text>end</text>
+        </name>
+      </place>
+      <transition id="CUP_weight">
+        <name>
+          <text>CUP_weight</text>
+        </name>
+      </transition>
+      <transition id="Initialize the max pressure of the CC">
+        <name>
+          <text>Initialize the max pressure of the CC</text>
+        </name>
+      </transition>
+      <transition id="Move down and get function">
+        <name>
+          <text>Move down and get function</text>
+        </name>
+      </transition>
+      <transition id="Place Cotton Candy on Scale">
+        <name>
+          <text>Place Cotton Candy on Scale</text>
+        </name>
+      </transition>
+      <transition id="external">
+        <name>
+          <text>external</text>
+        </name>
+      </transition>
+      <transition id="Move to Position 3">
+        <name>
+          <text>Move to Position 3</text>
+        </name>
+      </transition>
+      <transition id="Call weigh_max">
+        <name>
+          <text>Call weigh_max</text>
+        </name>
+      </transition>
+      <transition id="Move to final position">
+        <name>
+          <text>Move to final position</text>
+        </name>
+      </transition>
+      <transition id="Initialize Count">
+        <name>
+          <text>Initialize Count</text>
+        </name>
+      </transition>
+      <transition id="Move down until touch">
+        <name>
+          <text>Move down until touch</text>
+        </name>
+      </transition>
+      <transition id="Move to position 4">
+        <name>
+          <text>Move to position 4</text>
+        </name>
+      </transition>
+      <transition id="CC_weight">
+        <name>
+          <text>CC_weight</text>
+        </name>
+      </transition>
+      <transition id="Move to Position 1">
+        <name>
+          <text>Move to Position 1</text>
+        </name>
+      </transition>
+      <transition id="Initialize Vars">
+        <name>
+          <text>Initialize Vars</text>
+        </name>
+      </transition>
+      <transition id="Move to Position 5">
+        <name>
+          <text>Move to Position 5</text>
+        </name>
+      </transition>
+      <transition id="Move down">
+        <name>
+          <text>Move down</text>
+        </name>
+      </transition>
+      <transition id="weigh_touch">
+        <name>
+          <text>weigh_touch</text>
+        </name>
+      </transition>
+      <transition id="Initialize the sizes of the CC">
+        <name>
+          <text>Initialize the sizes of the CC</text>
+        </name>
+      </transition>
+      <transition id="Move to Position 2">
+        <name>
+          <text>Move to Position 2</text>
+        </name>
+      </transition>
+      <transition id="Remove Cotton Candy from Scale">
+        <name>
+          <text>Remove Cotton Candy from Scale</text>
+        </name>
+      </transition>
+      <arc id="14672213728" source="start" target="external"/>
+      <arc id="14672266640" source="external" target="end"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="end">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

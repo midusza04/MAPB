@@ -1,0 +1,21 @@
+activity_clean,next_activity,count,median,mean,max
+Call The Cottonbot with Data Collection,external,32,23.8532415,234.5094989375,3086.798502
+Get the Plug Data,Wait 2 seconds,20585,2.025792,2.1236551815399562,6.85369
+Run until CC Head is optimally cooled,Wait 2 seconds,125,2.017749,2.019232984,2.044312
+Set waiting time,Wait 2 seconds,28,2.006612,2.006170535714286,5.99928
+Measure the pressure of the three sides of the cotton candy,Wait 2 seconds,49,2.004401,1.6223760408163266,3.998493
+external,Wait 2 seconds,69,2.00421,1.5864311304347825,2.050725
+Place the Wood Stick in Center,Wait 2 seconds,33,1.97342,1.6280689393939394,5.939832
+Move down and get function,Call weigh_max,628,1.303404,1.451621729299363,6.427041
+Move to Position 1,Move to Position 1,352,1.218289,4.40514715625,12.991302
+Remove Cotton Candy from Scale,Remove Cotton Candy from Scale,140,1.216423,6.625133192857143,14.905937
+Move to Position 5,Move to Position 5,340,1.1703485,2.425252185294118,10.137331
+Move to Position 2,Move to Position 2,350,1.1245185,3.062401911428571,8.636793
+Move to position 4,Move to position 4,340,1.1056469999999998,3.1620225235294117,7.16197
+Move to Position 3,Move to Position 3,348,1.0988905,3.0440231695402296,7.084254
+Move to final position,Move to final position,340,1.0806135000000001,3.235300547058823,7.418337
+Get the Plug Data,Turn the Machine On,42,1.0254945,0.9115816904761905,2.033335
+Get the Plug Data,Sleep 1 Second,13959,1.025199,1.0269416632996633,5.697733
+Wait 2 seconds,Run until CC Head is optimally cooled,40,1.0184455,1.019066325,1.039905
+Run until CC Head is optimally cooled,Sleep 1 Second,1046,1.0177325,1.0224936195028682,2.055065
+Run until CC Head is optimally warm,Sleep 1 Second,317,1.017506,1.027974164037855,2.028471

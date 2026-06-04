@@ -1,0 +1,61 @@
+dbscan_cluster,cluster_name,activity_clean,count
+-1,Nietypowy profil / szum,Get the Environment Data,4478
+-1,Nietypowy profil / szum,Get the Plug Data,4471
+-1,Nietypowy profil / szum,external,1560
+-1,Nietypowy profil / szum,Wait 2 seconds,1124
+-1,Nietypowy profil / szum,weigh_touch,287
+0,Rozruch / dogrzewanie,Get the Environment Data,1766
+0,Rozruch / dogrzewanie,Get the Plug Data,1749
+0,Rozruch / dogrzewanie,external,653
+0,Rozruch / dogrzewanie,Wait 2 seconds,444
+0,Rozruch / dogrzewanie,weigh_touch,119
+1,Chłodzenie po pracy,Get the Environment Data,436
+1,Chłodzenie po pracy,Get the Plug Data,436
+1,Chłodzenie po pracy,external,136
+1,Chłodzenie po pracy,Wait 2 seconds,108
+1,Chłodzenie po pracy,Call The Cottonbot with Data Collection,5
+2,Chłodzenie po pracy,Get the Environment Data,1997
+2,Chłodzenie po pracy,Get the Plug Data,1992
+2,Chłodzenie po pracy,external,707
+2,Chłodzenie po pracy,Wait 2 seconds,501
+2,Chłodzenie po pracy,Move down,156
+3,Rozruch / dogrzewanie,Get the Environment Data,900
+3,Rozruch / dogrzewanie,Get the Plug Data,897
+3,Rozruch / dogrzewanie,external,333
+3,Rozruch / dogrzewanie,Wait 2 seconds,227
+3,Rozruch / dogrzewanie,weigh_touch,104
+6,Rozruch / dogrzewanie,Get the Environment Data,827
+6,Rozruch / dogrzewanie,Get the Plug Data,820
+6,Rozruch / dogrzewanie,external,315
+6,Rozruch / dogrzewanie,Wait 2 seconds,204
+6,Rozruch / dogrzewanie,Move down,60
+7,Rozruch / dogrzewanie,Get the Environment Data,551
+7,Rozruch / dogrzewanie,Get the Plug Data,545
+7,Rozruch / dogrzewanie,external,279
+7,Rozruch / dogrzewanie,Wait 2 seconds,137
+7,Rozruch / dogrzewanie,Move down,116
+10,Postój / stan chłodny,Get the Environment Data,834
+10,Postój / stan chłodny,Get the Plug Data,832
+10,Postój / stan chłodny,external,312
+10,Postój / stan chłodny,Wait 2 seconds,206
+10,Postój / stan chłodny,weigh_touch,59
+11,Postój / stan chłodny,Get the Environment Data,827
+11,Postój / stan chłodny,Get the Plug Data,824
+11,Postój / stan chłodny,external,389
+11,Postój / stan chłodny,weigh_touch,256
+11,Postój / stan chłodny,Move down,251
+12,Postój / stan chłodny,Get the Plug Data,828
+12,Postój / stan chłodny,Get the Environment Data,826
+12,Postój / stan chłodny,external,349
+12,Postój / stan chłodny,Wait 2 seconds,204
+12,Postój / stan chłodny,Move down,60
+13,Normalna praca stabilna,Get the Environment Data,275
+13,Normalna praca stabilna,Get the Plug Data,269
+13,Normalna praca stabilna,external,141
+13,Normalna praca stabilna,weigh_touch,104
+13,Normalna praca stabilna,Move down,103
+14,Normalna praca stabilna,Get the Environment Data,300
+14,Normalna praca stabilna,Get the Plug Data,300
+14,Normalna praca stabilna,external,116
+14,Normalna praca stabilna,Wait 2 seconds,74
+14,Normalna praca stabilna,Move down,29
