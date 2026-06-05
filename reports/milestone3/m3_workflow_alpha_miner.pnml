@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <pnml>
-  <net id="alpha_classic_net_1780581105.530321" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+  <net id="alpha_classic_net_1780668661.5286689" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
     <name>
-      <text>alpha_classic_net_1780581105.530321</text>
+      <text>alpha_classic_net_1780668661.5286689</text>
     </name>
     <page id="n0">
       <place id="start">
@@ -18,19 +18,34 @@
           <text>end</text>
         </name>
       </place>
-      <transition id="CUP_weight">
+      <transition id="Place Cotton Candy on Scale">
         <name>
-          <text>CUP_weight</text>
+          <text>Place Cotton Candy on Scale</text>
         </name>
       </transition>
-      <transition id="Initialize Count">
+      <transition id="Move down and get function">
         <name>
-          <text>Initialize Count</text>
+          <text>Move down and get function</text>
         </name>
       </transition>
       <transition id="Call weigh_max">
         <name>
           <text>Call weigh_max</text>
+        </name>
+      </transition>
+      <transition id="weigh_touch">
+        <name>
+          <text>weigh_touch</text>
+        </name>
+      </transition>
+      <transition id="Move to Position 2">
+        <name>
+          <text>Move to Position 2</text>
+        </name>
+      </transition>
+      <transition id="Move down until touch">
+        <name>
+          <text>Move down until touch</text>
         </name>
       </transition>
       <transition id="Move to Position 1">
@@ -43,19 +58,19 @@
           <text>Initialize Vars</text>
         </name>
       </transition>
-      <transition id="Move down">
+      <transition id="Initialize the max pressure of the CC">
         <name>
-          <text>Move down</text>
+          <text>Initialize the max pressure of the CC</text>
         </name>
       </transition>
-      <transition id="Move down until touch">
+      <transition id="Move to Position 5">
         <name>
-          <text>Move down until touch</text>
+          <text>Move to Position 5</text>
         </name>
       </transition>
-      <transition id="Move to final position">
+      <transition id="Initialize the sizes of the CC">
         <name>
-          <text>Move to final position</text>
+          <text>Initialize the sizes of the CC</text>
         </name>
       </transition>
       <transition id="Remove Cotton Candy from Scale">
@@ -68,49 +83,19 @@
           <text>external</text>
         </name>
       </transition>
-      <transition id="Initialize the sizes of the CC">
-        <name>
-          <text>Initialize the sizes of the CC</text>
-        </name>
-      </transition>
-      <transition id="Move to Position 2">
-        <name>
-          <text>Move to Position 2</text>
-        </name>
-      </transition>
-      <transition id="weigh_touch">
-        <name>
-          <text>weigh_touch</text>
-        </name>
-      </transition>
-      <transition id="Move to position 4">
-        <name>
-          <text>Move to position 4</text>
-        </name>
-      </transition>
-      <transition id="Initialize the max pressure of the CC">
-        <name>
-          <text>Initialize the max pressure of the CC</text>
-        </name>
-      </transition>
       <transition id="CC_weight">
         <name>
           <text>CC_weight</text>
         </name>
       </transition>
-      <transition id="Place Cotton Candy on Scale">
+      <transition id="Initialize Count">
         <name>
-          <text>Place Cotton Candy on Scale</text>
+          <text>Initialize Count</text>
         </name>
       </transition>
-      <transition id="Move to Position 5">
+      <transition id="Move down">
         <name>
-          <text>Move to Position 5</text>
-        </name>
-      </transition>
-      <transition id="Move down and get function">
-        <name>
-          <text>Move down and get function</text>
+          <text>Move down</text>
         </name>
       </transition>
       <transition id="Move to Position 3">
@@ -118,8 +103,23 @@
           <text>Move to Position 3</text>
         </name>
       </transition>
-      <arc id="13587719200" source="start" target="external"/>
-      <arc id="13588068640" source="external" target="end"/>
+      <transition id="Move to position 4">
+        <name>
+          <text>Move to position 4</text>
+        </name>
+      </transition>
+      <transition id="CUP_weight">
+        <name>
+          <text>CUP_weight</text>
+        </name>
+      </transition>
+      <transition id="Move to final position">
+        <name>
+          <text>Move to final position</text>
+        </name>
+      </transition>
+      <arc id="14426872656" source="start" target="external"/>
+      <arc id="14426617520" source="external" target="end"/>
     </page>
     <finalmarkings>
       <marking>

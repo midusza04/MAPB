@@ -1,56 +1,66 @@
 dbscan_cluster,cluster_name,activity_clean,count
--1,Nietypowy profil / szum,Get the Environment Data,3561
--1,Nietypowy profil / szum,Get the Plug Data,3552
--1,Nietypowy profil / szum,external,1228
--1,Nietypowy profil / szum,Wait 2 seconds,893
--1,Nietypowy profil / szum,weigh_touch,235
-0,Rozruch / dogrzewanie,Get the Environment Data,1766
-0,Rozruch / dogrzewanie,Get the Plug Data,1749
-0,Rozruch / dogrzewanie,external,653
-0,Rozruch / dogrzewanie,Wait 2 seconds,444
-0,Rozruch / dogrzewanie,weigh_touch,119
-1,Chłodzenie po pracy,Get the Environment Data,436
-1,Chłodzenie po pracy,Get the Plug Data,436
-1,Chłodzenie po pracy,external,136
-1,Chłodzenie po pracy,Wait 2 seconds,108
-1,Chłodzenie po pracy,Call The Cottonbot with Data Collection,5
-2,Chłodzenie po pracy,Get the Environment Data,1997
-2,Chłodzenie po pracy,Get the Plug Data,1992
-2,Chłodzenie po pracy,external,707
-2,Chłodzenie po pracy,Wait 2 seconds,501
-2,Chłodzenie po pracy,Move down,156
-3,Rozruch / dogrzewanie,Get the Environment Data,2004
-3,Rozruch / dogrzewanie,Get the Plug Data,1993
-3,Rozruch / dogrzewanie,external,777
-3,Rozruch / dogrzewanie,Wait 2 seconds,501
-3,Rozruch / dogrzewanie,weigh_touch,216
-6,Rozruch / dogrzewanie,Get the Environment Data,551
-6,Rozruch / dogrzewanie,Get the Plug Data,545
-6,Rozruch / dogrzewanie,external,279
-6,Rozruch / dogrzewanie,Wait 2 seconds,137
-6,Rozruch / dogrzewanie,Move down,116
-9,Postój / stan chłodny,Get the Environment Data,834
-9,Postój / stan chłodny,Get the Plug Data,832
-9,Postój / stan chłodny,external,312
-9,Postój / stan chłodny,Wait 2 seconds,206
-9,Postój / stan chłodny,weigh_touch,59
-10,Postój / stan chłodny,Get the Environment Data,827
-10,Postój / stan chłodny,Get the Plug Data,824
-10,Postój / stan chłodny,external,389
-10,Postój / stan chłodny,weigh_touch,256
-10,Postój / stan chłodny,Move down,251
-11,Postój / stan chłodny,Get the Plug Data,828
-11,Postój / stan chłodny,Get the Environment Data,826
-11,Postój / stan chłodny,external,349
-11,Postój / stan chłodny,Wait 2 seconds,204
-11,Postój / stan chłodny,Move down,60
-12,Normalna praca stabilna,Get the Plug Data,943
-12,Normalna praca stabilna,Get the Environment Data,940
-12,Normalna praca stabilna,external,319
-12,Normalna praca stabilna,Wait 2 seconds,235
-12,Normalna praca stabilna,Move down,29
-13,Normalna praca stabilna,Get the Environment Data,275
-13,Normalna praca stabilna,Get the Plug Data,269
-13,Normalna praca stabilna,external,141
-13,Normalna praca stabilna,weigh_touch,104
-13,Normalna praca stabilna,Move down,103
+-1,Nietypowy profil / szum,Get the Environment Data,296
+-1,Nietypowy profil / szum,Get the Plug Data,292
+-1,Nietypowy profil / szum,external,119
+-1,Nietypowy profil / szum,Wait 2 seconds,74
+-1,Nietypowy profil / szum,Move down,24
+0,Profil środowiskowy / wysoka wilgotność,Get the Environment Data,1159
+0,Profil środowiskowy / wysoka wilgotność,Get the Plug Data,1144
+0,Profil środowiskowy / wysoka wilgotność,external,488
+0,Profil środowiskowy / wysoka wilgotność,Wait 2 seconds,290
+0,Profil środowiskowy / wysoka wilgotność,weigh_touch,132
+1,Intensywna praca grzania,Get the Environment Data,326
+1,Intensywna praca grzania,Get the Plug Data,324
+1,Intensywna praca grzania,external,152
+1,Intensywna praca grzania,Wait 2 seconds,81
+1,Intensywna praca grzania,Move down until touch,24
+2,Chłodzenie aktywne,Get the Plug Data,312
+2,Chłodzenie aktywne,Get the Environment Data,310
+2,Chłodzenie aktywne,external,89
+2,Chłodzenie aktywne,Wait 2 seconds,77
+2,Chłodzenie aktywne,Place the Wood Stick in Center,3
+3,Chłodzenie aktywne,Get the Environment Data,607
+3,Chłodzenie aktywne,Get the Plug Data,604
+3,Chłodzenie aktywne,external,163
+3,Chłodzenie aktywne,Wait 2 seconds,152
+3,Chłodzenie aktywne,Call The Cottonbot with Data Collection,7
+4,Normalna praca stabilna,Get the Environment Data,1474
+4,Normalna praca stabilna,Get the Plug Data,1469
+4,Normalna praca stabilna,external,585
+4,Normalna praca stabilna,Wait 2 seconds,371
+4,Normalna praca stabilna,weigh_touch,211
+5,Normalna praca stabilna,Get the Environment Data,716
+5,Normalna praca stabilna,Get the Plug Data,709
+5,Normalna praca stabilna,external,272
+5,Normalna praca stabilna,Wait 2 seconds,180
+5,Normalna praca stabilna,weigh_touch,63
+6,Profil środowiskowy / wysoka wilgotność,Get the Plug Data,990
+6,Profil środowiskowy / wysoka wilgotność,Get the Environment Data,989
+6,Profil środowiskowy / wysoka wilgotność,external,479
+6,Profil środowiskowy / wysoka wilgotność,Wait 2 seconds,247
+6,Profil środowiskowy / wysoka wilgotność,weigh_touch,191
+8,Profil środowiskowy / wysoka wilgotność,Get the Environment Data,331
+8,Profil środowiskowy / wysoka wilgotność,Get the Plug Data,328
+8,Profil środowiskowy / wysoka wilgotność,external,138
+8,Profil środowiskowy / wysoka wilgotność,Wait 2 seconds,82
+8,Profil środowiskowy / wysoka wilgotność,weigh_touch,40
+11,Postój chłodny / wilgotny,Get the Plug Data,1420
+11,Postój chłodny / wilgotny,Get the Environment Data,1416
+11,Postój chłodny / wilgotny,external,665
+11,Postój chłodny / wilgotny,Wait 2 seconds,353
+11,Postój chłodny / wilgotny,weigh_touch,181
+12,Rozruch / dogrzewanie,Get the Environment Data,500
+12,Rozruch / dogrzewanie,Get the Plug Data,500
+12,Rozruch / dogrzewanie,external,199
+12,Rozruch / dogrzewanie,Wait 2 seconds,125
+12,Rozruch / dogrzewanie,weigh_touch,80
+13,Normalna praca stabilna,Get the Environment Data,575
+13,Normalna praca stabilna,Get the Plug Data,566
+13,Normalna praca stabilna,external,238
+13,Normalna praca stabilna,Wait 2 seconds,141
+13,Normalna praca stabilna,Move down,81
+14,Chłodzenie aktywne,Get the Environment Data,220
+14,Chłodzenie aktywne,Get the Plug Data,220
+14,Chłodzenie aktywne,Wait 2 seconds,55
+14,Chłodzenie aktywne,external,55
+14,Chłodzenie aktywne,Fill Machine with Sugar,3

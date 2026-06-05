@@ -1,6 +1,8 @@
-cluster_name,Call The Cottonbot with Data Collection,Call weigh_max,Get the Environment Data,Get the Plug Data,Measure the pressure of the three sides of the cotton candy,Measure the size of the Cotton Candy,Move down,Move down and get function,Move down until touch,Wait 2 seconds,external,weigh_touch
-Chłodzenie po pracy,26,36,2433,2428,24,24,156,27,72,609,843,156
-Nietypowy profil / szum,42,72,3561,3552,48,43,231,54,109,893,1228,235
-Normalna praca stabilna,17,12,1215,1212,8,13,132,9,24,303,460,132
-Postój / stan chłodny,42,87,2487,2484,62,41,367,65,121,616,1050,371
-Rozruch / dogrzewanie,71,132,4321,4287,90,68,446,99,195,1082,1709,451
+cluster_name,Call weigh_max,Get the Environment Data,Get the Plug Data,Measure the pressure of the three sides of the cotton candy,Measure the size of the Cotton Candy,Move down,Move down and get function,Move down until touch,Wait 2 seconds,Weigh the whole Cotton Candy,external,weigh_touch
+Chłodzenie aktywne,0,1137,1136,3,0,0,0,0,284,3,307,0
+Intensywna praca grzania,12,326,324,5,8,20,9,24,81,0,152,20
+Nietypowy profil / szum,12,296,292,8,8,24,9,24,74,3,119,24
+Normalna praca stabilna,84,2765,2744,56,36,347,63,112,692,21,1095,354
+Postój chłodny / wilgotny,95,1416,1420,62,26,170,71,71,353,72,665,181
+Profil środowiskowy / wysoka wilgotność,135,2479,2462,85,50,356,101,176,619,71,1105,363
+Rozruch / dogrzewanie,12,500,500,8,3,79,9,11,125,8,199,80

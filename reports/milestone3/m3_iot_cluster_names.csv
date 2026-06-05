@@ -1,16 +1,17 @@
 dbscan_cluster,cluster_name
 -1,Nietypowy profil / szum
-0,Rozruch / dogrzewanie
-1,Chłodzenie po pracy
-2,Chłodzenie po pracy
-3,Rozruch / dogrzewanie
+0,Profil środowiskowy / wysoka wilgotność
+1,Intensywna praca grzania
+2,Chłodzenie aktywne
+3,Chłodzenie aktywne
 4,Normalna praca stabilna
-5,Chłodzenie po pracy
-6,Rozruch / dogrzewanie
-7,Normalna praca stabilna
-8,Intensywna praca grzania
-9,Postój / stan chłodny
-10,Postój / stan chłodny
-11,Postój / stan chłodny
-12,Normalna praca stabilna
+5,Normalna praca stabilna
+6,Profil środowiskowy / wysoka wilgotność
+7,Rozruch / dogrzewanie
+8,Profil środowiskowy / wysoka wilgotność
+9,Normalna praca stabilna
+10,Intensywna praca grzania
+11,Postój chłodny / wilgotny
+12,Rozruch / dogrzewanie
 13,Normalna praca stabilna
+14,Chłodzenie aktywne
