@@ -1,6 +1,6 @@
 cluster_name,Call The Cottonbot with Data Collection,Call weigh_max,Get the Environment Data,Get the Plug Data,Measure the pressure of the three sides of the cotton candy,Measure the size of the Cotton Candy,Move down,Move down and get function,Move down until touch,Wait 2 seconds,external,weigh_touch
 Chłodzenie po pracy,26,36,2433,2428,24,24,156,27,72,609,843,156
-Nietypowy profil / szum,47,84,4478,4471,56,56,283,63,133,1124,1560,287
-Normalna praca stabilna,12,12,575,569,8,8,132,9,24,142,257,132
+Nietypowy profil / szum,42,72,3561,3552,48,43,231,54,109,893,1228,235
+Normalna praca stabilna,17,12,1215,1212,8,13,132,9,24,303,460,132
 Postój / stan chłodny,42,87,2487,2484,62,41,367,65,121,616,1050,371
-Rozruch / dogrzewanie,71,120,4044,4011,82,60,394,90,171,1012,1580,399
+Rozruch / dogrzewanie,71,132,4321,4287,90,68,446,99,195,1082,1709,451

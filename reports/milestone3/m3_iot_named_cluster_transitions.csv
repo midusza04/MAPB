@@ -1,23 +1,22 @@
 activity,next_activity,count
-Nietypowy profil / szum,Nietypowy profil / szum,14
+Normalna praca stabilna,Normalna praca stabilna,20
+Rozruch / dogrzewanie,Rozruch / dogrzewanie,9
 Postój / stan chłodny,Postój / stan chłodny,9
-Rozruch / dogrzewanie,Rozruch / dogrzewanie,8
-Normalna praca stabilna,Normalna praca stabilna,8
 Chłodzenie po pracy,Chłodzenie po pracy,7
-Normalna praca stabilna,Nietypowy profil / szum,5
-Nietypowy profil / szum,Normalna praca stabilna,4
-Normalna praca stabilna,Chłodzenie po pracy,4
+Nietypowy profil / szum,Nietypowy profil / szum,6
+Normalna praca stabilna,Chłodzenie po pracy,5
+Chłodzenie po pracy,Normalna praca stabilna,4
 Rozruch / dogrzewanie,Nietypowy profil / szum,4
-Nietypowy profil / szum,Rozruch / dogrzewanie,3
 Rozruch / dogrzewanie,Normalna praca stabilna,3
-Chłodzenie po pracy,Nietypowy profil / szum,3
-Nietypowy profil / szum,Intensywna praca grzania,2
+Nietypowy profil / szum,Normalna praca stabilna,3
+Nietypowy profil / szum,Rozruch / dogrzewanie,3
+Normalna praca stabilna,Intensywna praca grzania,3
 Intensywna praca grzania,Normalna praca stabilna,2
-Nietypowy profil / szum,Chłodzenie po pracy,2
-Chłodzenie po pracy,Normalna praca stabilna,2
+Chłodzenie po pracy,Rozruch / dogrzewanie,1
+Normalna praca stabilna,Postój / stan chłodny,1
+Normalna praca stabilna,Rozruch / dogrzewanie,1
 Postój / stan chłodny,Nietypowy profil / szum,1
 Intensywna praca grzania,Rozruch / dogrzewanie,1
-Normalna praca stabilna,Rozruch / dogrzewanie,1
-Chłodzenie po pracy,Rozruch / dogrzewanie,1
-Nietypowy profil / szum,Postój / stan chłodny,1
-Normalna praca stabilna,Intensywna praca grzania,1
+Chłodzenie po pracy,Nietypowy profil / szum,1
+Nietypowy profil / szum,Chłodzenie po pracy,1
+Normalna praca stabilna,Nietypowy profil / szum,1

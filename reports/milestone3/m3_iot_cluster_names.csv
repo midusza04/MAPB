@@ -7,11 +7,10 @@ dbscan_cluster,cluster_name
 4,Normalna praca stabilna
 5,Chłodzenie po pracy
 6,Rozruch / dogrzewanie
-7,Rozruch / dogrzewanie
+7,Normalna praca stabilna
 8,Intensywna praca grzania
-9,Normalna praca stabilna
+9,Postój / stan chłodny
 10,Postój / stan chłodny
 11,Postój / stan chłodny
-12,Postój / stan chłodny
+12,Normalna praca stabilna
 13,Normalna praca stabilna
-14,Normalna praca stabilna
