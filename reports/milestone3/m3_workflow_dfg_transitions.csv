@@ -1,0 +1,441 @@
+activity_clean,next_activity,count
+Get the Plug Data,Get the Plug Data,106376
+Get the Environment Data,Get the Environment Data,104782
+external,Get the Environment Data,39684
+Get the Environment Data,Get the Plug Data,36849
+Get the Plug Data,Wait 2 seconds,20585
+Wait 2 seconds,external,19978
+Sleep 1 Second,external,15149
+Get the Plug Data,Sleep 1 Second,13959
+external,external,10449
+Move down,Move down,7395
+weigh_touch,weigh_touch,7390
+Get the Environment Data,external,4760
+Move down until touch,Move down until touch,3666
+Get the Plug Data,Run until CC Head is optimally cooled,3217
+Get the Plug Data,external,2925
+Run until CC Head is optimally cooled,Get the Environment Data,2742
+weigh_touch,external,2466
+Move down,weigh_touch,2464
+external,Get the Plug Data,2394
+Run until CC Head is optimally cooled,Get the Plug Data,2201
+external,Run until CC Head is optimally cooled,2198
+external,Move down,1940
+Get the Environment Data,Run until CC Head is optimally cooled,1676
+Run until CC Head is optimally cooled,external,1425
+Call The Cottonbot with Data Collection,Call The Cottonbot with Data Collection,1234
+Run until CC Head is optimally cooled,Sleep 1 Second,1046
+Call weigh_max,Call weigh_max,949
+Move down and get function,Move down and get function,899
+Get the Plug Data,Run until CC Head is optimally warm,828
+Get the Plug Data,Wait until Head is optimally warm,781
+Wait until Head is optimally warm,Get the Environment Data,769
+Measure the pressure of the three sides of the cotton candy,Measure the pressure of the three sides of the cotton candy,670
+external,Sleep 1 Second,650
+Move down and get function,Call weigh_max,628
+external,Wait until Head is optimally warm,609
+Wait until Head is optimally warm,Get the Plug Data,596
+Measure the size of the Cotton Candy,Measure the size of the Cotton Candy,591
+Call weigh_max,Move down and get function,584
+Initialize Count,Initialize Count,525
+Initialize Count,Move down,525
+external,Initialize Count,525
+Run until CC Head is optimally warm,Get the Environment Data,511
+Call weigh_max,external,507
+Run until CC Head is optimally warm,Get the Plug Data,495
+CC_weight,CC_weight,495
+Get the Environment Data,Wait until Head is optimally warm,464
+external,Run until CC Head is optimally warm,416
+Sleep 1 Second,Run until CC Head is optimally cooled,391
+Wait until Head is optimally warm,external,372
+Init Frame,Init Frame,352
+Move to Position 1,Move to Position 1,352
+Show Header,Show Header,350
+Clear,Clear,350
+Move to Position 2,Move to Position 2,350
+Move to Position 3,Move to Position 3,348
+Weigh the whole Cotton Candy,Weigh the whole Cotton Candy,346
+Move to final position,Move to final position,340
+Move to Position 5,Move to Position 5,340
+Move to position 4,Move to position 4,340
+Place Cotton Candy on Scale,Place Cotton Candy on Scale,327
+CUP_weight,CUP_weight,324
+Run until CC Head is optimally warm,Sleep 1 Second,317
+Measure the size of the Cotton Candy,Get the Environment Data,316
+Get the Environment Data,Measure the size of the Cotton Candy,305
+Weigh the whole Cotton Candy and Throw Away,Weigh the whole Cotton Candy and Throw Away,303
+Get the Environment Data,Run until CC Head is optimally warm,283
+Run until CC Head is optimally warm,external,279
+Turn the Machine On,external,253
+Wait until Head is optimally warm,Sleep 1 Second,237
+Create Cotton Candy,Create Cotton Candy,231
+Clear Button,Clear Button,219
+Measure the size of the Cotton Candy,Get the Plug Data,218
+Get the Plug Data,Measure the size of the Cotton Candy,207
+Place the Wood Stick in Center,external,192
+Measure the pressure of the three sides of the cotton candy,Get the Plug Data,191
+Get the Environment Data,Measure the pressure of the three sides of the cotton candy,189
+external,Initialize iteration,185
+Initialize iteration,Call The Cottonbot with Data Collection,185
+Initialize iteration,Initialize iteration,185
+Turn the Machine On,Turn the Machine On,184
+Show End,Show End,183
+Set the Sugar Amount for Size,Get the Environment Data,182
+Initialize the sizes of the CC,Move to Position 1,176
+Clear,Show Header,176
+external,Initialize the sizes of the CC,176
+Move down until touch,external,176
+Initialize the sizes of the CC,Initialize the sizes of the CC,176
+Move to Position 1,Move down until touch,176
+Init Frame,Clear,176
+Get the Environment Data,Weigh the whole Cotton Candy,176
+Show Header,external,175
+Get the Plug Data,Measure the pressure of the three sides of the cotton candy,175
+Move down until touch,Move to Position 2,175
+Move to Position 2,Move down until touch,175
+Move to Position 3,Move down until touch,174
+Move down until touch,Move to Position 3,174
+Get the Environment Data,Set the Stick Number,174
+Create Cotton Candy,external,172
+Fill Machine with Sugar,Fill Machine with Sugar,171
+external,Move to position 4,170
+Initialize the max pressure of the CC,Initialize the max pressure of the CC,170
+external,Move to final position,170
+external,Move to Position 5,170
+external,Initialize the max pressure of the CC,170
+Weigh the whole Cotton Candy,Get the Environment Data,170
+Move to final position,external,170
+Go to the next available Stick,external,169
+Go to the next available Stick,Go to the next available Stick,169
+Call The Cottonbot with Data Collection,Go to the next available Stick,166
+external,Initialize Vars,165
+Place Cotton Candy on Scale,CC_weight,165
+Set cooking time (Time Spinning),Set cooking time (Time Spinning),164
+Set the Sugar Amount for Size,Set the Sugar Amount for Size,164
+CUP_weight,Place Cotton Candy on Scale,164
+Initialize Vars,Initialize Vars,164
+Set waiting time,Set waiting time,164
+Initialize Vars,CUP_weight,163
+Move to Position 5,Call weigh_max,162
+Set the Stick Number,Set the Stick Number,159
+Show Start,Show Start,159
+Place the Wood Stick in Center,Place the Wood Stick in Center,158
+Set the Stick Number,Get the Environment Data,157
+Set waiting time,Get the Environment Data,154
+Move to position 4,Call weigh_max,151
+Initialize the max pressure of the CC,Call weigh_max,150
+Measure the size of the Cotton Candy,Measure the pressure of the three sides of the cotton candy,145
+Get the Environment Data,Set waiting time,145
+Set the Sugar Amount for Size,Fill Machine with Sugar,143
+Remove Cotton Candy from Scale,Remove Cotton Candy from Scale,140
+Measure the pressure of the three sides of the cotton candy,external,137
+Get the Plug Data,Set the Sugar Amount for Size,134
+Cools Down Machine,external,134
+Set cooking time (Time Spinning),external,132
+Clear Button,external,132
+Measure the pressure of the three sides of the cotton candy,Get the Environment Data,129
+Get the Environment Data,Set the Sugar Amount for Size,128
+Run until CC Head is optimally cooled,Wait 2 seconds,125
+Set waiting time,external,124
+Show Start,Get the Environment Data,122
+Get the Plug Data,Set waiting time,120
+Sleep 1 Second,Wait until Head is optimally warm,120
+external,Measure the size of the Cotton Candy,120
+external,Cools Down Machine,118
+Get the Plug Data,Set cooking time (Time Spinning),117
+Turn the Machine On,Show Start,115
+Show Start,external,115
+Fill Machine with Sugar,external,115
+Cools Down Machine,Cools Down Machine,114
+Create Cotton Candy,Get the Environment Data,111
+Set the Stick Number,Place the Wood Stick in Center,108
+Show End,external,107
+Fill Machine with Sugar,Get the Plug Data,105
+Wait 2 seconds,Turn the Machine On,105
+external,Init Frame,104
+Weigh the whole Cotton Candy and Throw Away,external,104
+Weigh the whole Cotton Candy,Get the Plug Data,104
+Show End,Get the Environment Data,103
+Get the Environment Data,Clear Button,100
+Wait 2 seconds,Place the Wood Stick in Center,99
+Clear Button,Get the Environment Data,96
+Show End,Clear Button,96
+CC_weight,external,95
+Fill Machine with Sugar,Turn the Machine On,95
+Wait 2 seconds,Set cooking time (Time Spinning),94
+Cools Down and Turns Off Machine,external,92
+Get the Plug Data,Set the Stick Number,92
+Measure the size of the Cotton Candy,external,90
+Measure the pressure of the three sides of the cotton candy,Weigh the whole Cotton Candy,90
+Initialize Time,Initialize Time,90
+Wait 2 seconds,Show Start,90
+Set cooking time (Time Spinning),Get the Plug Data,88
+Sleep 1 Second,Run until CC Head is optimally warm,87
+Cools Down and Turns Off Machine,Cools Down and Turns Off Machine,87
+Get the Environment Data,Set cooking time (Time Spinning),86
+Place the Wood Stick in Center,Get the Plug Data,85
+Set cooking time (Time Spinning),Get the Environment Data,84
+Wait 2 seconds,Show End,83
+Set cooldown time,Get the Environment Data,83
+Get the Plug Data,Weigh the whole Cotton Candy,82
+Get the Environment Data,Turn the Machine On,81
+Wait 2 seconds,Create Cotton Candy,81
+Initialize Time,Get the Environment Data,81
+external,Initialize Time,79
+Show Start,Show End,79
+external,Set the Stick Number,78
+Weigh the whole Cotton Candy and Throw Away,Get the Environment Data,77
+Set cooldown time,Set cooldown time,77
+Wait 2 seconds,Set cooldown time,76
+Sleep 1 Second,Turn the Machine On,75
+Wait 2 seconds,Fill Machine with Sugar,75
+Get the Environment Data,Weigh the whole Cotton Candy and Throw Away,74
+Start Cooking Time,Start Cooking Time,74
+Sleep 1 Second,Weigh the whole Cotton Candy and Throw Away,72
+Sleep 1 Second,Measure the size of the Cotton Candy,72
+Turns Off Machine,external,71
+Remove Cotton Candy from Scale,external,70
+CC_weight,Remove Cotton Candy from Scale,70
+Measure the pressure of the three sides of the cotton candy,Weigh the whole Cotton Candy and Throw Away,69
+Wait 2 seconds,Cools Down and Turns Off Machine,69
+Sleep 1 Second,Measure the pressure of the three sides of the cotton candy,69
+Wait 2 seconds,Measure the pressure of the three sides of the cotton candy,69
+external,Wait 2 seconds,69
+Get the Plug Data,Place the Wood Stick in Center,69
+Place the Wood Stick in Center,Get the Environment Data,68
+Set the Stick Number,external,68
+external,Set the Sugar Amount for Size,68
+external,Turn the Machine On,68
+Start Cooking Time,Create Cotton Candy,67
+Get the Environment Data,Create Cotton Candy,67
+external,Place the Wood Stick in Center,66
+Turn the Machine On,Get the Environment Data,64
+Set cooking time (Time Spinning),Create Cotton Candy,64
+Get the Environment Data,Init Frame,63
+Weigh the whole Cotton Candy,Set cooldown time,63
+Cools Down Machine,Run until CC Head is optimally cooled,62
+Set the Stick Number,Run until CC Head is optimally warm,61
+Cools Down and Turns Off Machine,Get the Environment Data,60
+Sleep 1 Second,Fill Machine with Sugar,59
+Turns Off Machine,Turns Off Machine,59
+Create Cotton Candy,Get the Plug Data,58
+external,Show End,57
+Set waiting time,Get the Plug Data,57
+Get the Plug Data,Cools Down Machine,57
+Turns Off Machine & Stops Time,Turns Off Machine & Stops Time,55
+Sleep 1 Second,Set the Sugar Amount for Size,55
+Set cooldown time,external,54
+Sleep 1 Second,Create Cotton Candy,54
+external,Show Start,53
+Fill Machine with Sugar,Get the Environment Data,52
+Get the Plug Data,Fill Machine with Sugar,51
+Create Cotton Candy,Sleep 1 Second,51
+Measure the pressure of the three sides of the cotton candy,Wait 2 seconds,49
+external,Create Cotton Candy,49
+Wait 2 seconds,Set waiting time,48
+external,Set waiting time,47
+Get the Environment Data,Show End,47
+Heat up Head,Get the Environment Data,45
+Run until CC Head is optimally cooled,Cools Down Machine,45
+Get the Plug Data,Start Cooking Time,44
+For Simple Data Extraction,For Simple Data Extraction,44
+Cools Down Machine,Get the Plug Data,44
+For Simple Data Extraction,external,44
+external,For Simple Data Extraction,44
+Get the Environment Data,Fill Machine with Sugar,44
+Get the Environment Data,Show Start,44
+Calculate Times & Differences,Calculate Times & Differences,43
+Get the Environment Data,Place the Wood Stick in Center,43
+Get the Plug Data,Create Cotton Candy,43
+Sleep 1 Second,Show End,42
+Get the Plug Data,Turn the Machine On,42
+Sleep 1 Second,Show Start,41
+Turns Off Machine & Stops Time,external,41
+Get the Plug Data,Show Start,41
+external,Cools Down and Turns Off Machine,41
+Wait 2 seconds,Set the Stick Number,41
+Sleep 1 Second,Turns Off Machine & Stops Time,41
+Sleep 1 Second,Turns Off Machine,40
+Show as timestamps,Show as timestamps,40
+Wait 2 seconds,Run until CC Head is optimally cooled,40
+Cools Down Machine,Sleep 1 Second,40
+Show as timestamps,Measure the size of the Cotton Candy,39
+Run until CC Head is optimally warm,Set cooking time (Time Spinning),39
+external,Measure the pressure of the three sides of the cotton candy,38
+Set the Sugar Amount for Size,external,38
+external,Calculate Times & Differences,38
+external,Turns Off Machine & Stops Time,37
+Weigh the whole Cotton Candy and Throw Away,Cools Down Machine,37
+external,Heat up Head,37
+Set the Stick Number,Get the Plug Data,37
+Calculate Times & Differences,Show as timestamps,36
+Weigh the whole Cotton Candy,external,36
+Heat up Head,Heat up Head,36
+Wait 2 seconds,Weigh the whole Cotton Candy,36
+external,Set cooking time (Time Spinning),36
+external,Clear Button,35
+Run until CC Head is optimally warm,Set waiting time,35
+Heat up Head,external,34
+Stop Time,Stop Time,34
+Set waiting time,Set cooking time (Time Spinning),33
+Place the Wood Stick in Center,Wait 2 seconds,33
+Set cooldown time,Cools Down and Turns Off Machine,33
+Call The Cottonbot with Data Collection,external,32
+Set the Sugar Amount for Size,Get the Plug Data,32
+Sleep 1 Second,Cools Down Machine,32
+Wait 2 seconds,Measure the size of the Cotton Candy,32
+Stop Time,Get the Environment Data,31
+Run until CC Head is optimally warm,Place the Wood Stick in Center,31
+Get the Plug Data,Turns Off Machine,31
+external,Turns Off Machine,30
+Weigh the whole Cotton Candy and Throw Away,Get the Plug Data,30
+Show Start,Get the Plug Data,30
+Run until CC Head is optimally warm,Set the Stick Number,30
+Get the Plug Data,Weigh the whole Cotton Candy and Throw Away,29
+Turns Off Machine,Get the Environment Data,29
+external,Fill Machine with Sugar,29
+Get the Plug Data,Show End,29
+Turns Off Machine,Sleep 1 Second,29
+Set waiting time,Wait 2 seconds,28
+Get the Plug Data,Cools Down and Turns Off Machine,28
+Cools Down and Turns Off Machine,Get the Plug Data,28
+Turns Off Machine & Stops Time,Get the Environment Data,28
+Get the Environment Data,Cools Down Machine,27
+Turns Off Machine & Stops Time,Get the Plug Data,27
+Get the Plug Data,Set cooldown time,27
+Turns Off Machine & Stops Time,Sleep 1 Second,25
+Cools Down Machine,Turns Off Machine,25
+Get the Plug Data,Turns Off Machine & Stops Time,25
+Get the Environment Data,Set cooldown time,25
+Set cooking time (Time Spinning),Sleep 1 Second,25
+Sleep 1 Second,Set cooking time (Time Spinning),25
+Send UUID to registry,Send UUID to registry,24
+Initialize the Start position of the first Stick (0 for the first,Initialize the Start position of the first Stick (0 for the first,24
+Get the Environment Data,Stop Time,24
+Initialize the Start position of the first Stick (0 for the first,external,24
+Sleep 1 Second,Heat up Head,23
+external,Initialize the Start position of the first Stick (0 for the first,23
+Set cooldown time,Get the Plug Data,23
+Set cooking time (Time Spinning),Run until CC Head is optimally warm,22
+Place the Wood Stick in Center,Run until CC Head is optimally warm,22
+Wait 2 seconds,Set the Sugar Amount for Size,21
+Place the Wood Stick in Center,Sleep 1 Second,20
+Sleep 1 Second,Set waiting time,20
+Sleep 1 Second,Place the Wood Stick in Center,20
+Get the Environment Data,Turns Off Machine,20
+Initialize the max pressure of the CC,Move down and get function,20
+Move to position 4,Move down and get function,19
+Clear Button,Get the Plug Data,19
+Fill Machine with Sugar,Wait 2 seconds,19
+Turn the Machine On,Get the Plug Data,19
+Get the Environment Data,Start Cooking Time,18
+Cools Down Machine,Get the Environment Data,18
+Measure the pressure of the three sides of the cotton candy,Sleep 1 Second,18
+Show Start,Wait 2 seconds,18
+Get the Environment Data,Turns Off Machine & Stops Time,18
+Turns Off Machine,Get the Plug Data,17
+Set waiting time,Sleep 1 Second,17
+Set waiting time,Run until CC Head is optimally warm,17
+Weigh the whole Cotton Candy,Wait 2 seconds,17
+Change to Time,Change to Time,17
+Get the Environment Data,Cools Down and Turns Off Machine,17
+Change to Time,Measure the size of the Cotton Candy,16
+Show Start,Turn the Machine On,16
+Show End,Get the Plug Data,16
+Place the Wood Stick in Center,Set waiting time,15
+Measure the size of the Cotton Candy,Sleep 1 Second,15
+Create Cotton Candy,Wait 2 seconds,15
+Set cooking time (Time Spinning),Wait 2 seconds,15
+Get the Plug Data,Heat up Head,15
+external,Call The Cottonbot with Data Collection,14
+Turn the Machine On,Wait 2 seconds,14
+Show End,Wait 2 seconds,14
+Get the Plug Data,Clear Button,14
+Measure the size of the Cotton Candy,Wait 2 seconds,14
+Get the Environment Data,Heat up Head,14
+Create Cotton Candy,Change to Time,13
+external,Weigh the whole Cotton Candy and Throw Away,13
+external,Weigh the whole Cotton Candy,13
+external,Send UUID to registry,12
+Fill Machine with Sugar,Sleep 1 Second,11
+Sleep 1 Second,Set the Stick Number,11
+Send UUID to registry,Initialize Time,11
+external,Start Cooking Time,11
+Show Start,Sleep 1 Second,10
+Get the Environment Data,Wait 2 seconds,9
+Initialize Time,Init Frame,9
+Turn the Machine On,Sleep 1 Second,9
+Weigh the whole Cotton Candy and Throw Away,Sleep 1 Second,9
+Cools Down and Turns Off Machine,Wait 2 seconds,8
+Wait 2 seconds,Turns Off Machine,8
+Create Cotton Candy,Show End,8
+Move to Position 5,Move down and get function,8
+Weigh the whole Cotton Candy,Cools Down Machine,7
+Calculate Differences,Measure the size of the Cotton Candy,7
+Show as timestamps,Get the Environment Data,7
+Calculate Differences,Calculate Differences,7
+Wait 2 seconds,Clear Button,7
+Turn the Machine On,Set the Stick Number,7
+Set the Sugar Amount for Size,Sleep 1 Second,6
+Get the Environment Data,Show as timestamps,6
+Heat up Head,Get the Plug Data,6
+external,Stop Time,6
+external,Calculate Differences,6
+external,Set cooldown time,6
+Set the Sugar Amount for Size,Wait 2 seconds,5
+Show End,Sleep 1 Second,5
+Set cooldown time,Wait 2 seconds,4
+Clear Button,Wait 2 seconds,4
+Start Cooking Time,Get the Environment Data,4
+Fill Machine with Sugar,Show Start,4
+Turns Off Machine,Wait 2 seconds,4
+Turns Off Machine,Stop Time,4
+Move down and get function,external,3
+Clear Button,Create Cotton Candy,3
+Run until CC Head is optimally warm,Show Start,3
+Heat up Head,Sleep 1 Second,3
+Show End,Create Cotton Candy,3
+Show End,Run until CC Head is optimally warm,3
+Get the Plug Data,Show as timestamps,3
+Sleep 1 Second,Start Cooking Time,3
+Get the Environment Data,Change to Time,3
+Create Cotton Candy,Clear Button,3
+external,Go to the next available Stick,3
+Start Cooking Time,external,3
+Stop Time,external,3
+Get the Plug Data,Calculate Times & Differences,3
+Calculate Times & Differences,Get the Plug Data,3
+Stop Time,Get the Plug Data,2
+external,weigh_touch,2
+Start Cooking Time,Get the Plug Data,2
+Cools Down Machine,Wait 2 seconds,2
+Calculate Times & Differences,Get the Environment Data,2
+Set the Stick Number,Wait 2 seconds,2
+Show Start,Set the Stick Number,2
+Initialize Vars,Place Cotton Candy on Scale,1
+Get the Environment Data,Calculate Differences,1
+Initialize Vars,external,1
+Get the Plug Data,Change to Time,1
+Get the Environment Data,Calculate Times & Differences,1
+Heat up Head,Cools Down Machine,1
+Move down,external,1
+Get the Plug Data,Get the Environment Data,1
+Get the Plug Data,Stop Time,1
+Calculate Times & Differences,Sleep 1 Second,1
+Clear Button,Show End,1
+Sleep 1 Second,Calculate Times & Differences,1
+Calculate Times & Differences,external,1
+Wait 2 seconds,Wait 2 seconds,1
+Wait 2 seconds,Cools Down Machine,1
+Turn the Machine On,Show End,1
+Sleep 1 Second,Stop Time,1
+Sleep 1 Second,Show as timestamps,1
+Show Start,Run until CC Head is optimally warm,1
+Place the Wood Stick in Center,Show End,1
+Show Header,Get the Plug Data,1
+Show End,Show Start,1
+external,CUP_weight,1
+Set the Stick Number,Show Start,1
+Send UUID to registry,Initialize the Start position of the first Stick (0 for the first,1
+Change to Time,Get the Environment Data,1
+Set the Stick Number,Sleep 1 Second,1

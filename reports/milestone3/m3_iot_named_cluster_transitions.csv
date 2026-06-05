@@ -1,0 +1,26 @@
+activity,next_activity,count
+Profil środowiskowy / wysoka wilgotność,Profil środowiskowy / wysoka wilgotność,15
+Normalna praca stabilna,Rozruch / dogrzewanie,14
+Normalna praca stabilna,Normalna praca stabilna,10
+Postój chłodny / wilgotny,Postój chłodny / wilgotny,9
+Rozruch / dogrzewanie,Chłodzenie aktywne,8
+Chłodzenie aktywne,Normalna praca stabilna,8
+Rozruch / dogrzewanie,Normalna praca stabilna,8
+Normalna praca stabilna,Intensywna praca grzania,7
+Intensywna praca grzania,Normalna praca stabilna,6
+Intensywna praca grzania,Intensywna praca grzania,6
+Chłodzenie aktywne,Chłodzenie aktywne,5
+Intensywna praca grzania,Chłodzenie aktywne,4
+Chłodzenie aktywne,Intensywna praca grzania,3
+Profil środowiskowy / wysoka wilgotność,Rozruch / dogrzewanie,3
+Nietypowy profil / szum,Normalna praca stabilna,2
+Profil środowiskowy / wysoka wilgotność,Normalna praca stabilna,2
+Normalna praca stabilna,Profil środowiskowy / wysoka wilgotność,2
+Rozruch / dogrzewanie,Nietypowy profil / szum,1
+Normalna praca stabilna,Postój chłodny / wilgotny,1
+Profil środowiskowy / wysoka wilgotność,Intensywna praca grzania,1
+Postój chłodny / wilgotny,Profil środowiskowy / wysoka wilgotność,1
+Normalna praca stabilna,Nietypowy profil / szum,1
+Intensywna praca grzania,Profil środowiskowy / wysoka wilgotność,1
+Chłodzenie aktywne,Rozruch / dogrzewanie,1
+Rozruch / dogrzewanie,Profil środowiskowy / wysoka wilgotność,1
